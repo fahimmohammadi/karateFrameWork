@@ -49,6 +49,9 @@
                     <target>${java.version}</target>
                     <compilerArgument>-Werror</compilerArgument>
                 </configuration>
+                <includes>
+                    <include>Runner.java</include>
+                </includes>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
